@@ -1,0 +1,65 @@
+.card-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.innerContainer1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.aero{
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+}
+.aero:hover{
+    color: gray;
+    transition: 0.3s ease-in;
+}
+
+.innerContainer2{
+    display: flex;
+    width: 170px;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+}
+
+.innerContainer3{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 10px;
+    max-height: fit-content;
+    max-width: fit-content;
+}
+
+.Trailer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border: 1px solid blue;
+    border-radius: 5px;
+    max-width: 50%;
+    padding: 10px 0;
+}
+
+.shadow{
+    border: 1px solid white;
+    width: 100vw;
+    margin-top: 10px;
+    box-shadow: -10px 10px 5px black;
+}
